@@ -34,8 +34,9 @@ body{
 .cont-actions1{
     display: flex;
     height: 2em;
-    width: 10em;
+    width: 3em;
     text-align: center;
+    justify-content: center;
     cursor: pointer;
     margin: auto;
     /* background-color: #a31111; */
@@ -58,9 +59,20 @@ body{
     height: 2em;
     width: 3em;
     text-align: center;
+    justify-content: center;
     cursor: pointer;
     margin: auto;
     /* background-color: #a31111; */
+}
+
+.cont-actions3 > .button{
+    background-color: #09090A;
+    height: 2em;
+    width: 4em;
+    border-radius: 3px;
+    border: 1px solid white;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .actions > a {
